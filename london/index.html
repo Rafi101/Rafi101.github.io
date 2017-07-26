@@ -4,10 +4,28 @@
         <link rel="stylesheet" href="main2.css">
     </head>
     <body>
+        <div class="city">
                         <div class="links">      
 		<a href="historicbildings.html">Historic buildings</a>
         <a href="museams.html">Museums</a>
         <a href="restaronts.html">Resturants</a>
         </div>
+            <div id="map">
+            
+            </div>
+            </div>
+        <script>
+      function initMap() {
+        var london = {lat: 51.507351, lng: -0.127758};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: london
+        });
+       
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjUMDKCjrPyV-w-ODb6UtV-8ANgJ_vYOg&callback=initMap">
+    </script>
     </body>
 </html>
