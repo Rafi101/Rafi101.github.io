@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;-
+}
+h1 {
+    padding: 12px;
+    border-radius :10px;
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: none;
+    padding: 12px;
+}
+.introVideo {
+}
+
+div.links {
+    font-size:20px;
+    font-family:impact;
+}
+div.links a
+{
+    color: lightblue;
+}
+div.city {
+margin: auto;
+    width: 1000px;
+background-color: black;
+    box-shadow: 1px 1px 10px black;
+}
+div.sidewalk
+{
+width: 20%;
+background-color: black;
+        display: inline-block;
+    float: left;
+}
+div.road
+{
+    width: 80%;
+            display: inline-block;
+    background-color: white;
+}
+.banner
+{
+        width: 98%;
+    margin: 1%;
+}
+div.lane1
+{
+    width:50%;
+    background-color: white;
+    color: black;
+    float: left;
+    display: inline-block;
+}
+div.lane1 p {
+    padding: 10PX
+}
+div.lane2
+{
+    width:50%;
+    background-color: white;
+    color: black;
+    float: left;
+    display: inline-block;
+}
+div.lane2 ul {
+    list-style-type: disc;
+}
